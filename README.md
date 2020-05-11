@@ -38,4 +38,4 @@ In this final project, you will implement the missing parts in the schematic. To
 
 | | | |
 |----------------------------------|----------------------------------|----------------------------------|----------------------------------|
-|<img src="result_plots/AKAZE_AKAZE.png" width="779" height="414" />| | |
+|<img src="result_plots/AKAZE-AKAZE.png" width="779" height="414" />| | |
