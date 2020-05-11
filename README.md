@@ -37,5 +37,5 @@ In this final project, you will implement the missing parts in the schematic. To
 ## Final project report
 
 | | | | | | |
-|:--------------------------------:|:--------------------------------:|:--------------------------------:|:--------------------------------:|:--------------------------------:|:--------------------------------:|
+|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 |<img src="./result_plots/AKAZE-AKAZE.PNG" width="300"/>|<img src="./result_plots/AKAZE-BRIEF.PNG" width="300"/>|<img src="./result_plots/AKAZE-BRISK.PNG" width="300"/>|<img src="./result_plots/AKAZE-FREAK.PNG" width="300"/>|<img src="./result_plots/AKAZE-ORB.PNG" width="300"/>|<img src="./result_plots/AKAZE-SIFT.PNG" width="300"/>|
