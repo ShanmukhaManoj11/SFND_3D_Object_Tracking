@@ -41,6 +41,7 @@ In this final project, you will implement the missing parts in the schematic. To
 2. Estimating TTC with camera higly depends on robustness in detecting and matching keypoints. If keypoint detection or matching based on descriptors is off TTC calculations would be drastically off. This can be seen in experiments with HARRIS and ORB detectors where some of the values are NANs and some values are -inf. With other detectors - BRISK, AKAZE, SHITOMASI and SIFT, calculations doesn't appear too erratic but they jump very discretlty between frames (these patterns can be seen the plots below). Among all the descriptors, FAST detector combined with all the descriptors seems to be giving better results - can be seen from relatively smooth plot camerTTC in the plots below.
 
 3. Below is the collection of plots showing lidarTTC, cameraTTC and abs(lidarTTC-cameraTTC) for different detector-descriptor pairs over the sequence of images from test data
+
 | | | | | | |
 |:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|:-------------:|
 |<img src="./result_plots/AKAZE-AKAZE.PNG" width="300"/> AKAZE-AKAZE|<img src="./result_plots/AKAZE-BRIEF.PNG" width="300"/> AKAZE-BRIEF|<img src="./result_plots/AKAZE-BRISK.PNG" width="300"/> AKAZE-BRISK|<img src="./result_plots/AKAZE-FREAK.PNG" width="300"/> AKAZE-FREAK|<img src="./result_plots/AKAZE-ORB.PNG" width="300"/> AKAZE-ORB|<img src="./result_plots/AKAZE-SIFT.PNG" width="300"/> AKAZE-SIFT|
